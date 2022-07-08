@@ -3,6 +3,7 @@
 
 # Belly Button Biodiversity Page at https://huddack20.github.io/plot-Belly-Button-Biodiversity/
 
+# I also analyzed the dataset samples.csv on Jupyter Notebook. I made interactive plots as well. 
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
