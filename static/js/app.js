@@ -162,7 +162,7 @@ d3.json(sampleUrl).then(function (importedData) {
 		d3.select("#sample-metadata").html("");
 
 		// Display each key-value pair from the metadata JSON object
-		Object.entries(metainfo).forEach(([key, value]) => d3.select("#sample-metadata").append("p").text(`${key}: ${value}`));
+		Object.entries(metainfo).forEach(([key, value]) => d3.select("#sample-metadata").attr('style', 'font-weight: bold').append("p").text(`${key}: ${value}`));
 
 		// ADVANCED CHALLENGE: GAUGE CHART
 		var wfreq = metainfo.wfreq;
